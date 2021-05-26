@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container {
+  width: 750px;
+  height: 600px;
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btnn {
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.correct{
+    width: 500px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+    background-color: rgb(14, 223, 32);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.incorrect{
+    width: 500px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.exit{
+    width: 50px;
+    height: 30px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    width: 600px;
+    height: 650px;
+
+}
+}
+@media only screen and (max-width: 650px) {
+  /* For mobile phones: */
+  .container {
+    width: 500px;
+    height: 650px;
+
+}
+.btnn {
+  width: 400px;
+  height: 50px;
+}
+.correct {
+  width: 400px;
+  height: 50px;
+}
+.incorrect {
+  width: 400px;
+  height: 50px;
+}
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .container {
+    width: 400px;
+    height: 650px;
+
+}
+.btnn {
+  width: 300px;
+  height: 50px;
+}
+.correct {
+  width: 300px;
+  height: 50px;
+}
+.incorrect {
+  width: 300px;
+  height: 50px;
+}
+}
