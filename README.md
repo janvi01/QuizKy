@@ -1,7 +1,7 @@
 # QuizKy 💭
 - Play Random quiz.
 - Made with [React](https://reactjs.org/).
-- Question API taken from [here](https://quizapi.io/).
+- Question API taken from [Open Trivia](https://opentdb.com/).
 - Reloading quotes taken from [here](https://www.codeofliving.com/)
  <br/>
  <br/>
