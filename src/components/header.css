@@ -1,10 +1,22 @@
 .App-header {
-    background-color: #282c34;
-    
+    background-image: url(https://t4.ftcdn.net/jpg/02/76/08/07/240_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1500px 360px;
     padding: 20px;
+   
     font-size: calc(10px + 2vmin);
     color: white;
     text-align: center;
+  }
+  h1{
+    border: #ffffff solid;
+   padding: 20px 0 20px 0;
+   width: 30%;
+   position: relative;
+   left: 35%;
+   right: 35%;
+  
   }
   i{
     cursor: pointer;
