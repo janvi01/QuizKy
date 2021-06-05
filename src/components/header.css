@@ -1,24 +1,43 @@
 .App-header {
-    background-image: url(https://t4.ftcdn.net/jpg/02/76/08/07/240_F_276080724_hltnCyDjcqAyRtLzDYo3T2jXbBtCD7fl.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1500px 360px;
-    padding: 20px;
-   
-    font-size: calc(10px + 2vmin);
-    color: white;
-    text-align: center;
+  padding: 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  border: solid #ffffff;
+  width: 80%;
+  margin: 0 8% 0 8%;
+}
+h1 {
+  color: #4a4b47;
+  background-color: #f9c7c2;
+  border: #f9c7c2 solid;
+  border-radius: 50%;
+  letter-spacing: 3px;
+  padding: 2%;
+  width: 20%;
+  position: relative;
+  left: 37%;
+  right: 37%;
+}
+i {
+  cursor: pointer;
+}
+@media only screen and (max-width: 868px) {
+  .App-header {
+    margin: 0 8% 0 5%;
   }
-  h1{
-    border: #ffffff solid;
-   padding: 20px 0 20px 0;
-   width: 30%;
-   position: relative;
-   left: 35%;
-   right: 35%;
-  
+  h1 {
+    width: 50%;
+    position: relative;
+    left: 20%;
+    right: 20%;
   }
-  i{
-    cursor: pointer;
+}
+@media only screen and (max-width: 468px) {
+  h1 {
+    width: 70%;
+    position: relative;
+    left: 13%;
+    right: 13%;
   }
-  
+}

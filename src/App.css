@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
 .App {
+  font-family: "Vollkorn", serif;
   text-align: center;
+  background-color: #161822;
+  color: #ffffff;
 }
 .App-link {
   color: #61dafb;
 }
-.Cat{
+.Cat {
   display: flex;
   justify-content: center;
   flex-direction: row;
-
 }

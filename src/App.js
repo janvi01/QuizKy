@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Headerr from "./components/header";
+import Header from "./components/header";
 import Quiz from "./components/quiz";
 
 function App() {
   return (
     <div className="App">
-      <Headerr></Headerr>
-      <Quiz ></Quiz>
+      <Header></Header>
+      <Quiz></Quiz>
       <h4>
         Made using{" "}
         <a
@@ -19,6 +19,7 @@ function App() {
           React
         </a>
       </h4>
+      <br />
     </div>
   );
 }
