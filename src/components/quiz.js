@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {Link} from 'react-scroll'
 import "./quiz.css";
 
 function Quiz() {
@@ -117,7 +118,7 @@ function Quiz() {
             Your score is {score}/{index + 1}.
           </h3>
           <h3>Thanks for playing! 🤗</h3>
-          <button className="btn2" onClick={() => playagain()}>
+          <button className="btn2" id="pa" onClick={() => playagain()}>
             Play Again
           </button>
         </div>
@@ -176,9 +177,9 @@ function Quiz() {
         <button className="btn2" onClick={() => next()}>
           Next
         </button>
-        <button className="btn2" onClick={() => setresultshow(true)}>
+        <Link to="pa"><button className="btn2" onClick={() => setresultshow(true)}>
           Quit
-        </button>
+        </button></Link>
       </div>
     </div>
   );
