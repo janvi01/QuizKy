@@ -30,6 +30,7 @@ function Quiz() {
           ].sort()
         );
         setcorrectans(data.results[index].correct_answer);
+        
       });
   }, [category, index]);
 
@@ -117,7 +118,7 @@ function Quiz() {
           <h3>
             Your score is {score}/{index + 1}.
           </h3>
-          <h3>Thanks for playing! 🤗</h3>
+          <h3>Thanks for playing! </h3>
           <button className="btn2" id="pa" onClick={() => playagain()}>
             Play Again
           </button>
